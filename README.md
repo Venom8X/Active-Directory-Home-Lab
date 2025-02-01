@@ -46,7 +46,32 @@ This project provided hands-on experience in setting up an Active Directory envi
 
 ## Screenshots
 
+### Download VirtualBox and Windows Server 2022 ISO
+- **Download VirtualBox:** [www.virtualbox.org](https://www.virtualbox.org)
+  ![VirtualBox Download Page](screenshots/virtualbox-download.png)
+
+- **Download Windows Server 2022 ISO:** [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
+  ![Windows Server ISO Download](screenshots/iso.png)
+
 ### VirtualBox Installed
 This screenshot shows that Oracle VirtualBox is installed and ready for use:
 
 ![VirtualBox Installed](screenshots/virtualbox-installed.png)
+
+### Virtual Machine Settings
+These screenshots show the hardware, hard disk, and storage settings for the Windows Server 2022 VM:
+
+#### Hardware Settings
+This screenshot shows the hardware configuration, including RAM and CPU allocation:
+
+![VirtualBox VM Settings](screenshots/virtualbox-hardware.png)
+
+#### Hard Disk Settings
+This screenshot shows the dynamically allocated storage settings for the VM:
+
+![VirtualBox Hard Disk Settings](screenshots/virtualbox-hdd.png)
+
+#### Storage/ISO Settings
+This screenshot shows the Windows Server 2022 ISO file attached to the VM:
+
+![VirtualBox ISO Settings](screenshots/virtualbox-isosettings.png)
