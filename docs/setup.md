@@ -27,7 +27,7 @@ Download and install [Oracle VirtualBox](https://www.virtualbox.org/).
 
 ### Download VirtualBox and Windows Server 2022 ISO
 - **Download VirtualBox:** [www.virtualbox.org](https://www.virtualbox.org)
-  ![VirtualBox Download Page](screenshots/virtualbox-download.png)
+  ![VirtualBox Download Page](../screenshots/virtualbox-download.png)
 
 - **Download Windows Server 2022 ISO:** [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
   ![Windows Server ISO Download](../screenshots/iso.png)
