@@ -8,6 +8,7 @@
 - [PowerShell Usage for Project Management](#powershell-usage-for-project-management)
 - [Setup Instructions](docs/setup.md)
 - [Using Active Directory](docs/usingAD.md)
+- [Setting up NAS/RAS](docs/NAT-RAS.md)
 ---
 
 ## Overview
