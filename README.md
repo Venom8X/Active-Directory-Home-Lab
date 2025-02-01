@@ -3,12 +3,9 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Lab Architecture](#lab-architecture)
-- [Objectives](#objectives)
-- [Skills Demonstrated](#skills-demonstrated)
-- [Tools and Technologies](#tools-and-technologies)
+- [Objectives, Skills Demonstrated, and Tools](#objectives)
 - [Setup Instructions](#setup-instructions)
-- [Results](#results)
-- [Conclusion](#conclusion)
+- [Results and Conclusion](#results)
 - [Screenshots](#screenshots)
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
@@ -62,7 +59,7 @@ This setup simulates a real-world environment for hands-on practice in Active Di
 
 ---
 
-## Tools and Technologies
+## Tools
 - **Oracle VirtualBox**: Virtualization platform.
 - **Windows Server**: Operating system for the Domain Controller.
 - **Active Directory Domain Services (AD DS)**: Directory service for Windows domain networks.
