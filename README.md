@@ -5,9 +5,9 @@
 - [Lab Architecture](#lab-architecture)
 - [Objectives, Skills Demonstrated, and Tools](#objectives)
 - [Results and Conclusion of this Lab](#results)
+- [PowerShell Usage for Project Management](#powershell-usage-for-project-management)
 - [Setup Instructions](docs/setup.md)
 - [Using Active Directory](docs/usingAD.md)
-- [PowerShell Usage for Project Management](#powershell-usage-for-project-management)
 ---
 
 ## Overview
