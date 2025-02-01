@@ -2,7 +2,8 @@
 
 ## Table of Contents
 - [Installing Active Directory Domain Services (AD DS)](#installing-active-directory-domain-services-(ad-ds))
-
+- [Promote the Server to a Domain Controller](#promote-the-server-to-a-domain-controller)
+- [Creating Organizational Units (OUs) and Users in Active Directory](#creating-organizational-units-(ous)-and-users-in-active-directory)
 ##
 - [Back to Active Directory Home Lab README](../README.md)
 ##
@@ -55,10 +56,114 @@
 
 Once the installation is complete, proceed to the next steps to configure your new domain.
 
+---
 
-## 1. Manage Users with PowerShell
-- Write PowerShell scripts to add, modify, and delete users in Active Directory.
+## **Promote the Server to a Domain Controller**
 
-##
-- [Back to Active Directory Home Lab README](../README.md)
-##
+### Step 1: Start Post-Deployment Configuration
+1. After the installation of Active Directory Domain Services (AD DS) is complete, you will see a **Post-deployment Configuration** notification at the top right of the Server Manager.
+2. Click on **Promote this server to a domain controller** to begin the configuration process.
+
+![Post-Deployment Configuration](../screenshots/servermanager6.png)
+
+---
+
+### Step 2: Deployment Configuration
+1. In the **Deployment Configuration** wizard, select **Add a new forest**.
+2. In the **Root domain name** field, enter the desired domain name (e.g., `mydomain.com`).
+3. Click **Next** to proceed.
+
+![Deployment Configuration](../screenshots/servermanager7.png)
+
+---
+
+### Step 3: Domain Controller Options
+1. Enter a **Directory Services Restore Mode (DSRM) password** and confirm it.
+2. Click **Next** to until you get to **Prerequisites Check**.
+
+![Domain Controller Options](../screenshots/servermanager8.png)
+
+---
+
+### Step 4: Prerequisites Check
+1. The wizard will perform a **Prerequisites Check** to validate the configuration.
+2. Ensure all prerequisite checks pass successfully.
+3. Review the warnings and additional information if applicable.
+4. Once all checks are passed, click **Install** to begin the promotion process.
+
+![Prerequisites Check](../screenshots/servermanager9.png)
+
+---
+
+## **Explanation**
+- **Add a New Forest**:
+  - A forest is the highest level of the Active Directory hierarchy. Creating a new forest establishes a new domain.
+- **Functional Levels**:
+  - Define the features available for the domain and forest.
+- **DNS Server**:
+  - Enables the server to resolve domain names within the network.
+- **Global Catalog (GC)**:
+  - Facilitates searching for objects in the directory and speeding up authentication.
+
+Once the server has been promoted to a domain controller, the system will reboot automatically.
+
+---
+
+## Creating Organizational Units (OUs) and Users in Active Directory
+
+### Step 1: Opening Active Directory Users and Computers
+
+1. Click on the **Start Menu**
+2. Type **Active Directory Users and Computers** into the search bar.
+3. Select the **Active Directory Users and Computers** app from the search results.
+   ![Active Directory Users and Computers](screenshots/adusersandcomputers.png)
+
+
+### Step 2: Create an Organizational Unit (OU)
+1. Open **Active Directory Users and Computers**.
+2. Right-click on your domain name (e.g., `mydomain.com`) in the left panel.
+3. Hover over **New** and select **Organizational Unit**.
+   ![Create New OU](screenshots/newou1.png)
+4. In the **New Object - Organizational Unit** dialog:
+   - Enter the name of the OU (e.g., `_ADMINS`).
+   - Ensure the box for **Protect container from accidental deletion** is checked.
+   - Click **OK** to create the OU.
+   ![New OU Name](screenshots/newou2.png)
+
+---
+
+### Step 3: Add a New User to the Organizational Unit
+1. In **Active Directory Users and Computers**, navigate to the newly created OU (e.g., `_ADMINS`).
+2. Right-click the OU and hover over **New**, then select **User**.
+   ![Add New User](screenshots/newuser1.png)
+3. In the **New Object - User** dialog:
+   - Enter the user's first name, last name, and user logon name.
+   - Example:
+     - **First Name**: Luis
+     - **Last Name**: van den Bussche
+     - **User Logon Name**: `a.vandenbussche`
+   - Click **Next** to continue.
+   ![New User Details](screenshots/newuser2.png)
+4. Set the user's password:
+   - Enter the password in both fields.
+   - Options:
+     - Check **User must change password at next logon** if the user should set their password upon first login.
+   - Click **Next** to proceed.
+   ![Set User Password](screenshots/newuser3.png)
+5. Review the details and click **Finish** to create the user account.
+
+---
+
+### Best Practices for OUs and User Accounts
+1. **Organizational Units (OUs)**:
+   - Group similar objects (e.g., users, computers) for easier management.
+   - Use meaningful names that reflect their purpose (e.g., `_ADMINS`, `HR_Employees`).
+
+2. **User Accounts**:
+   - Use consistent naming conventions for usernames.
+   - Ensure secure password policies are in place.
+
+These steps ensure efficient management and organization of resources in your Active Directory environment.
+
+---
+
