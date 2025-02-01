@@ -1,7 +1,11 @@
 # Using Active Directory
 
 ## Table of Contents
--[Installing Active Directory Domain Services (AD DS)](#installing-active-directory-domain-services-(ad-ds))
+- [Installing Active Directory Domain Services (AD DS)](#installing-active-directory-domain-services-(ad-ds))
+
+##
+- [Back to Active Directory Home Lab README](../README.md)
+##
 
 ## **Installing Active Directory Domain Services (AD DS)**
 

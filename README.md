@@ -4,9 +4,8 @@
 - [Overview](#overview)
 - [Lab Architecture](#lab-architecture)
 - [Objectives, Skills Demonstrated, and Tools](#objectives)
+- [Results and Conclusion of this Lab](#results)
 - [Setup Instructions](docs/setup.md)
-- [Results and Conclusion](#results)
-- [Screenshots](#screenshots)
 
 ---
 
