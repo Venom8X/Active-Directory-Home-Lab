@@ -182,8 +182,6 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ---
 
-## Configuring Network Adapters in Windows Server
-
 ### Step 1: Access the Network Menu
 1. Navigate to the **system tray** at the bottom-right corner of the screen.
 2. Locate the **network icon** (it may appear as a globe or Wi-Fi symbol).
