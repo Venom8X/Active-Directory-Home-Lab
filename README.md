@@ -132,7 +132,7 @@ This project was managed and documented entirely using **PowerShell**, showcasin
 ### SSH Key Management
 - Configured SSH authentication to streamline interactions with GitHub:
   ```powershell
-  ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+  ssh-keygen -t rsa -b 4096 -C luisvandenbussche@gmail.com
   ssh-add ~/.ssh/id_rsa
 
 ## Why I Used PowerShell
