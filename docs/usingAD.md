@@ -171,3 +171,63 @@ These steps ensure efficient management and organization of resources in your Ac
 
 ---
 
+## Managing Users in Active Directory
+
+### Adding a User to the Domain Admins Group
+
+#### Accessing User Properties
+1. In the **Active Directory Users and Computers** window:
+   - Navigate to the appropriate Organizational Unit (OU) where the user account is located (e.g., `_ADMINS`).
+   - Right-click on the user account (e.g., "Luis van den Bussche").
+2. Select **Properties** from the context menu.
+
+![Accessing User Properties](../screenshots/usingad/newadmin1.png)
+
+---
+
+#### Adding Group Membership
+1. In the **Properties** window:
+   - Navigate to the **Member Of** tab.
+2. Click the **Add...** button.
+
+![Adding Group Membership](../screenshots/usingad/newadmin2.png)
+
+---
+
+#### Selecting the Group
+1. In the **Select Groups** dialog:
+   - Type **Domain Admins** into the input box labeled "Enter the object names to select."
+   - Click **Check Names** to validate the group.
+2. Click **OK** to add the user to the group.
+
+![Selecting the Group](../screenshots/usingad/newadmin3.png)
+
+---
+
+#### Confirming Group Membership
+1. Verify that **Domain Admins** now appears in the **Member Of** tab under the list of groups.
+2. Click **OK** to save and close the **Properties** window.
+
+![Confirming Group Membership](../screenshots/usingad/newadmin4.png)
+
+---
+
+### Logging In as the Updated User
+
+#### Sign Out and Log In as the Updated User
+1. Open the **Start Menu**.
+2. Click on the **profile icon** or your account name in the bottom-left corner.
+3. Select **Sign out** from the menu.
+
+![Signing Out](../screenshots/usingad/newadmin5.png)
+
+4. On the login screen, select **Other user**.
+5. Enter the username and password for the updated account (e.g., "a-lvandenbussche").
+6. Ensure the domain is correct (e.g., **MYDOMAIN**).
+7. Click the **arrow** button or press **Enter** to log in.
+
+![Logging In](../screenshots/usingad/newadmin6.png)
+
+![Login Screen](../screenshots/usingad/newadmin7.png)
+
+---
