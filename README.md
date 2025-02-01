@@ -230,6 +230,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
   1. **IPv4 Address**: `10.0.2.15` (indicates this adapter is active on the network).
   2. **Default Gateway**: `10.0.2.2` (confirms this adapter is used to route traffic to the internet).
   3. **DHCP Enabled**: `Yes` (shows the adapter is receiving its IP address dynamically).
+
 ![Connection Details](screenshots/networkadapters4.png)
 
 **Explanation:**
