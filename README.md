@@ -45,4 +45,8 @@ Download and install [Oracle VirtualBox](https://www.virtualbox.org/).
 This project provided hands-on experience in setting up an Active Directory environment, enhancing skills in virtualization, server administration, and scripting.
 
 ## Screenshots
-*Add screenshots in this section as you progress through the project.*
+
+### VirtualBox Installed
+This screenshot shows that Oracle VirtualBox is installed and ready for use:
+
+![VirtualBox Installed](screenshots/virtualbox-installed.png)
