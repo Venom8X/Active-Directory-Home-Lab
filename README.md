@@ -7,7 +7,7 @@
 - [Results and Conclusion of this Lab](#results)
 - [Setup Instructions](docs/setup.md)
 - [Using Active Directory](docs/usingAD.md)
-
+- [PowerShell Usage for Project Management](#powershell-usage-for-project-management)
 ---
 
 ## Overview
@@ -139,6 +139,6 @@ This project was managed and documented entirely using **PowerShell**, showcasin
 
 - **Professionalism**: PowerShell is widely used in IT and DevOps environments, demonstrating my ability to work in professional workflows.
 - **Efficiency**: Automating tasks through PowerShell scripts saved time and ensured consistent management of the project.
-- **Version Control Expertise**: Managed the entire project lifecycle—from initialization to deployment—using Git commands in PowerShell.
+- **Version Control Expertise**: Managed the entire project lifecycle, from initialization to deployment, using Git commands in PowerShell.
 - **Reproducibility**: PowerShell scripts and workflows ensure that the project setup can be replicated by others in a structured and efficient manner.
 
