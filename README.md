@@ -9,6 +9,7 @@
 - [Setup Instructions](docs/setup.md)
 - [Using Active Directory](docs/usingAD.md)
 - [Setting up NAS/RAS](docs/NAT-RAS.md)
+- [Setting Up DHCP with the Domain Controller](docs/DHCP.md)
 ---
 
 ## Overview

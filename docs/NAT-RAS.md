@@ -3,6 +3,8 @@
 ## Table of Contents
 - [Configuring NAT and Remote Access Service (RAS)](#step-1-select-role-services-refer-to-installing-active-directory-domain-services-ad-ds-for-adding-roles-and-features)
 - [Configuring NAT and Routing with Remote Access](#configuring-nat-and-routing-with-remote-access)
+- [Next Step: Setting Up DHCP with the Domain Controller](docs/DHCP.md)
+- [Back to Active Directory Home Lab README](../README.md)
 
 ## Configuring NAT and Remote Access Service (RAS)
 ### Step 1: Select Role Services
@@ -62,7 +64,7 @@ Once the installation is complete, you can configure your Remote Access and NAT 
 
 ### Step 1: Access Routing and Remote Access
 1. Open **Server Manager**.
-2. Click on **Tools** and select **Routing and Remote Access** from the dropdown menu.
+2. Click on **Tools** at the top right of the screen, and select **Routing and Remote Access** from the dropdown menu.
 
    ![Routing and Remote Access Tool](../screenshots/natras1.png)
 
@@ -106,5 +108,12 @@ Once the installation is complete, you can configure your Remote Access and NAT 
 
 This configuration enables NAT and routing for internal clients to access the Internet via the public interface on your Windows Server.
 
+---
 
 [🔝 Back to Table of Contents](#table-of-contents)
+
+##
+[Next Step: Setting Up DHCP with the Domain Controller](docs/DHCP.md)
+
+[Back to Active Directory Home Lab README](../README.md)
+##
