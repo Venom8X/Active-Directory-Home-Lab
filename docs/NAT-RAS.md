@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Configuring NAT and Remote Access Service (RAS)](#step-1-select-role-services-refer-to-installing-active-directory-domain-services-ad-ds-for-adding-roles-and-features)
-- [Configuring NAT and Routing with Remote Access]
+- [Configuring NAT and Routing with Remote Access](#configuring-nat-and-routing-with-remote-access)
 
 ## Configuring NAT and Remote Access Service (RAS)
 ### Step 1: Select Role Services
@@ -56,7 +56,7 @@
 
 Once the installation is complete, you can configure your Remote Access and NAT settings as required to provide connectivity and routing for your network environment.
 
-## Configuring NAT and Routing with Remote Access
+### Configuring NAT and Routing with Remote Access
 
 ---
 
@@ -100,7 +100,7 @@ Once the installation is complete, you can configure your Remote Access and NAT 
 
 ---
 
-## Final Notes
+### Notes
 - Ensure that the **Windows Firewall** is configured to allow ports required for Routing and Remote Access.
 - NAT relies on external DNS and DHCP servers. Verify that these services are running and configured properly.
 
