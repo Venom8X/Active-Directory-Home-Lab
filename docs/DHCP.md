@@ -1,8 +1,9 @@
 # Setting Up DHCP with the Domain Controller
 
 ## Table of Contents
-- [Installing and Configuring DHCP Server]()
-- [Configuring a DHCP Scope on Windows Server]()
+- [Installing and Configuring DHCP Server](#installing-and-configuring-dhcp-server)
+- [Configuring a DHCP Scope on Windows Server](#configuring-a-dhcp-scope-on-windows-server)
+- [Next Step: ](docs/.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 
