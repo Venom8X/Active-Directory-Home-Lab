@@ -142,5 +142,5 @@ This project was managed and documented entirely using **PowerShell**, showcasin
 - **Version Control Expertise**: Managed the entire project lifecycle, from initialization to deployment, using Git commands in PowerShell.
 - **Reproducibility**: PowerShell scripts and workflows ensure that the project setup can be replicated by others in a structured and efficient manner.
 
-- [🔝 Back to Top](#)
+[🔝 Back to Table of Contents](#table-of-contents)
 

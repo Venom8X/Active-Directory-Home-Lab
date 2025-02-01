@@ -232,8 +232,8 @@ These steps ensure efficient management and organization of resources in your Ac
 
 ---
 
-- [🔝 Back to Top](#)
+[🔝 Back to Table of Contents](#table-of-contents)
 
 ##
-- [Back to Active Directory Home Lab README](../README.md)
+[Back to Active Directory Home Lab README](../README.md)
 ##
