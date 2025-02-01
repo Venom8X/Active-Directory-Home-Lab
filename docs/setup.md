@@ -6,7 +6,7 @@
 - [Windows Server 2022 Installation](#windows-server-2022-installation)
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
-- [Configure IPv4 Settings for Internal Adapter](#configure-ipv4-ettings-for-internal-adapter)
+- [Configure IPv4 Settings for Internal Adapter](#configure-ipv4-settings-for-internal-adapter)
 
 ##
 - [Back to Active Directory Home Lab README](../README.md)
