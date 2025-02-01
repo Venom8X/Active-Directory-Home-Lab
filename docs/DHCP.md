@@ -28,7 +28,7 @@ Follow these steps to install and configure the DHCP Server role on Windows Serv
 
 ---
 
-## Step 2: Confirm Installation Selections
+### Step 2: Confirm Installation Selections
 
 1. On the **Confirmation** page, verify that the **DHCP Server** role and its required features are listed.
 2. Click **Install** to begin the installation process.
