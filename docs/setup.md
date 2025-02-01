@@ -224,6 +224,8 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ---
 
+- [🔝 Back to Top](#)
+
 ##
 - [Back to Active Directory Home Lab README](../README.md)
 ##
