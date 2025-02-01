@@ -5,6 +5,7 @@
 - [Configuring NAT and Routing with Remote Access](#configuring-nat-and-routing-with-remote-access)
 - [Next Step: Setting Up DHCP with the Domain Controller](docs/DHCP.md)
 - [Back to Active Directory Home Lab README](../README.md)
+##
 
 ## Configuring NAT and Remote Access Service (RAS)
 ### Step 1: Select Role Services

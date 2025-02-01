@@ -3,8 +3,10 @@
 ## Table of Contents
 - [Installing and Configuring DHCP Server]()
 - [Configuring a DHCP Scope on Windows Server]()
+- [Back to Active Directory Home Lab README](../README.md)
+##
 
-
+## Installing and Configuring DHCP Server
 Follow these steps to install and configure the DHCP Server role on Windows Server:
 
 ---
