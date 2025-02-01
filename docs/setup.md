@@ -216,8 +216,6 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ![Configure Static IP](../screenshots/networkadapters7.png)
 
----
-
 ### **Explanation**
 - **Why Use a Static IP?**
   - The internal network adapter needs a consistent IP address (`172.16.0.1`) to serve as the Domain Controller (DC) and DNS server.
