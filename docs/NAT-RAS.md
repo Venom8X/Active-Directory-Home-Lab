@@ -11,7 +11,6 @@
 3. Select the following role services:
    - **DirectAccess and VPN (RAS)**
    - **Routing**
-4. Click **Next** to proceed.
 
 ![Select Role Services](../screenshots/ras.png)
 
@@ -33,7 +32,7 @@
    - **DirectAccess and VPN (RAS)**
    - **Routing**
 2. If additional role services are needed (e.g., **Web Application Proxy**), you may select them as well.
-3. Click **Next** to continue.
+3. Click **Next** to until you get to **Confirmation**.
 
 ![Confirm Role Services](../screenshots/ras3.png)
 
