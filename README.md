@@ -3,37 +3,15 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Lab Architecture](#lab-architecture)
-  - [Key Components](#key-components)
 - [Objectives](#objectives)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Tools and Technologies](#tools-and-technologies)
 - [Setup Instructions](#setup-instructions)
-  - [Install Oracle VirtualBox](#1-install-oracle-virtualbox)
-  - [Set Up Windows Server VM](#2-set-up-windows-server-vm)
-  - [Promote to Domain Controller](#3-promote-to-domain-controller)
-  - [Manage Users with PowerShell](#4-manage-users-with-powershell)
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [Screenshots](#screenshots)
-  - [Download VirtualBox and Windows Server 2022 ISO](#download-virtualbox-and-windows-server-2022-iso)
-  - [VirtualBox Installed](#virtualbox-installed)
-  - [Virtual Machine Settings](#virtual-machine-settings)
-  - [Windows Server Installation](#windows-server-installation)
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
-  - [Step 1: Access VirtualBox Network Settings](#step-1-access-virtualbox-network-settings)
-  - [Step 2: Configure Adapter 1 (NAT)](#step-2-configure-adapter-1-nat)
-  - [Step 3: Configure Adapter 2 (Internal Network)](#step-3-configure-adapter-2-internal-network)
-  - [Step 4: Save the Settings](#step-4-save-the-settings)
-  - [Explanation of Network Adapters](#explanation-of-network-adapters)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
-  - [Step 1: Access the Network Menu](#step-1-access-the-network-menu)
-  - [Step 2: Open Network & Internet Settings](#step-2-open-network--internet-settings)
-  - [Step 3: Access Change Adapter Options](#step-3-access-change-adapter-options)
-  - [Step 4: View Available Network Adapters](#step-4-view-available-network-adapters)
-  - [Step 5: Identify the Internet-Connected Adapter](#step-5-identify-the-internet-connected-adapter)
-  - [Step 6: Verify the Internet-Connected Adapter](#step-6-verify-the-internet-connected-adapter)
-  - [Step 7: Rename the Adapters for Easy Identification](#step-7-rename-the-adapters-for-easy-identification)
-  - [Benefits of Renaming Adapters](#benefits-of-renaming-adapters)
 
 ---
 
@@ -204,3 +182,4 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ---
 
+Let me know if you need any changes or further assistance! 🚀
