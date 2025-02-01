@@ -23,7 +23,7 @@ Download and install [Oracle VirtualBox](https://www.virtualbox.org/).
 
 ---
 
-## Screenshots
+## Guide with Screenshots
 
 ### Download VirtualBox and Windows Server 2022 ISO
 - **Download VirtualBox:** [www.virtualbox.org](https://www.virtualbox.org)
