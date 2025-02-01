@@ -128,6 +128,7 @@ Once the server has been promoted to a domain controller, the system will reboot
    - Enter the name of the OU (e.g., `_ADMINS`).
    - Ensure the box for **Protect container from accidental deletion** is checked.
    - Click **OK** to create the OU.
+
    ![New OU Name](../screenshots/newou2.png)
 
 ---
@@ -149,6 +150,7 @@ Once the server has been promoted to a domain controller, the system will reboot
    - Options:
      - Check **User must change password at next logon** if the user should set their password upon first login.
    - Click **Next** to proceed.
+
    ![Set User Password](../screenshots/newuser3.png)
 5. Review the details and click **Finish** to create the user account.
 
