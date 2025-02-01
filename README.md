@@ -227,12 +227,11 @@ Let me know if you need any changes or further assistance! 🚀
 1. Right-click on each adapter and select **Status** to view its connection details.
 2. In the **Ethernet Status** window, click **Details...** to see network properties.
 
-**Screenshots:**
-- **Checking Adapter Status:**
-  ![Adapter Status](screenshots/networkadapters2.png)
+**Checking Adapter Status:**
+![Adapter Status](screenshots/networkadapters2.png)
 
-- **Network Connection Details:**
-  ![Connection Details](screenshots/networkadapters3.png)
+**Network Connection Details:**
+![Connection Details](screenshots/networkadapters3.png)
 
 ---
 
