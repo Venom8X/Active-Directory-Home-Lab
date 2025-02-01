@@ -7,6 +7,7 @@
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
 - [Configure IPv4 Settings for Internal Adapter](#configure-ipv4-settings-for-internal-adapter)
+- [Next Step: Using Active Directory](docs/usingAD.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 
@@ -221,5 +222,6 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 [🔝 Back to Table of Contents](#table-of-contents)
 
 ##
+[Next Step: Using Active Directory](docs/usingAD.md)
 [Back to Active Directory Home Lab README](../README.md)
 ##
