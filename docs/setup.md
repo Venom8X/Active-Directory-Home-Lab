@@ -223,5 +223,6 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ##
 [Next Step: Using Active Directory](docs/usingAD.md)
+
 [Back to Active Directory Home Lab README](../README.md)
 ##
