@@ -182,11 +182,6 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ---
 
-Let me know if you need any changes or further assistance! 🚀
-
-
----
-
 ## Configuring Network Adapters in Windows Server
 
 ### Step 1: Access the Network Menu
@@ -228,9 +223,11 @@ Let me know if you need any changes or further assistance! 🚀
 2. In the **Ethernet Status** window, click **Details...** to see network properties.
 
 **Checking Adapter Status:**
+
 ![Adapter Status](screenshots/networkadapters2.png)
 
 **Network Connection Details:**
+
 ![Connection Details](screenshots/networkadapters3.png)
 
 ---
