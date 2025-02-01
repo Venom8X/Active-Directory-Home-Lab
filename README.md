@@ -76,3 +76,14 @@ This project provided hands-on experience in setting up an Active Directory envi
 
 ---
 
+## PowerShell Usage for Project Management
+
+This project was managed and documented entirely using **PowerShell**, showcasing my proficiency in using PowerShell for version control, automation, and project documentation. Below are the specific PowerShell commands and workflows I utilized:
+
+### Repository Setup
+- Created the local repository and linked it to the remote GitHub repository:
+  ```powershell
+  git init
+  git remote add origin https://github.com/your-username/repository-name.git
+
+
