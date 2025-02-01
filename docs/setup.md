@@ -20,14 +20,14 @@ Download and install [Oracle VirtualBox](https://www.virtualbox.org/).
   ![VirtualBox Download Page](screenshots/virtualbox-download.png)
 
 - **Download Windows Server 2022 ISO:** [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
-  ![Windows Server ISO Download](screenshots/iso.png)
+  ![Windows Server ISO Download](../screenshots/iso.png)
 
 ---
 
 ### VirtualBox Installed
 This screenshot shows that Oracle VirtualBox is installed and ready for use:
 
-![VirtualBox Installed](screenshots/virtualbox-installed.png)
+![VirtualBox Installed](../screenshots/virtualbox-installed.png)
 
 ---
 
@@ -35,35 +35,35 @@ This screenshot shows that Oracle VirtualBox is installed and ready for use:
 These screenshots show the hardware, hard disk, and storage settings for the Windows Server 2022 VM:
 
 #### Hardware Settings
-![VirtualBox Name and OS Settings](screenshots/virtualbox-os.png)
+![VirtualBox Name and OS Settings](../screenshots/virtualbox-os.png)
 
 #### Hardware Settings
-![VirtualBox Hardware Settings](screenshots/virtualbox-hardware.png)
+![VirtualBox Hardware Settings](../screenshots/virtualbox-hardware.png)
 
 #### Hard Disk Settings
-![VirtualBox Hard Disk Settings](screenshots/virtualbox-hdd.png)
+![VirtualBox Hard Disk Settings](../screenshots/virtualbox-hdd.png)
 
 #### Storage/ISO Settings
-![VirtualBox ISO Settings](screenshots/virtualbox-isosettings.png)
+![VirtualBox ISO Settings](../screenshots/virtualbox-isosettings.png)
 
 ---
 
 ### Windows Server Installation
 
 #### Start the VM
-![VirtualBox VM Menu](screenshots/virtualbox-vmcreated.png)
+![VirtualBox VM Menu](../screenshots/virtualbox-vmcreated.png)
 
 #### Select Custom Install
-![Windows Install Screen](screenshots/customos.png)
+![Windows Install Screen](../screenshots/customos.png)
 
 #### Edition Selection
-![Windows Edition Selection](screenshots/installos.png)
+![Windows Edition Selection](../screenshots/installos.png)
 
 #### Disk Selection
-![Windows Disk Selection](screenshots/installos2.png)
+![Windows Disk Selection](../screenshots/installos2.png)
 
 #### Windows Server 2022 GUI
-![Windows First Login](screenshots/windowsgui1.png)
+![Windows First Login](../screenshots/windowsgui1.png)
 
 ---
 
@@ -78,14 +78,14 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
    - **Enable Network Adapter**: Checked.
    - **Attached to**: NAT.
 
-![Adapter 1 (NAT)](screenshots/virtualbox-networksettings1.png)
+![Adapter 1 (NAT)](../screenshots/virtualbox-networksettings1.png)
 
 ### Step 3: Configure Adapter 2 (Internal Network)
 1. Click on **Adapter 2** and configure the following:
    - **Enable Network Adapter**: Checked.
    - **Attached to**: Internal Network.
 
-![Adapter 2 (Internal Network)](screenshots/virtualbox-networksettings2.png)
+![Adapter 2 (Internal Network)](../screenshots/virtualbox-networksettings2.png)
 
 ---
 
@@ -96,7 +96,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 2. Locate the **network icon** (it may appear as a globe or Wi-Fi symbol).
 3. **Right-click** the network icon to open the menu.
 
-![Accessing the Network Menu](screenshots/network1.png)
+![Accessing the Network Menu](../screenshots/network1.png)
 
 ---
 
@@ -104,7 +104,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 1. From the network menu, click on **Network & Internet settings**.
 2. This opens the Windows Settings panel with network-related options.
 
-![Network Settings](screenshots/network2.png)
+![Network Settings](../screenshots/network2.png)
 
 ---
 
@@ -113,7 +113,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 2. Under **Related settings**, click **Change adapter options**.
 3. This opens the **Network Connections** window.
 
-![Change Adapter Options](screenshots/network3.png)
+![Change Adapter Options](../screenshots/network3.png)
 
 ---
 
@@ -121,7 +121,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 1. In the **Network Connections** window, you’ll see a list of all available adapters.
    - Each adapter shows its name and current status (e.g., `Network` or `Unidentified network`).
 
-![Available Adapters](screenshots/networkadapters1.png)
+![Available Adapters](../screenshots/networkadapters1.png)
 
 ---
 
@@ -131,11 +131,11 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 **Checking Adapter Status:**
 
-![Adapter Status](screenshots/networkadapters2.png)
+![Adapter Status](../screenshots/networkadapters2.png)
 
 **Network Connection Details:**
 
-![Connection Details](screenshots/networkadapters3.png)
+![Connection Details](../screenshots/networkadapters3.png)
 
 ---
 
@@ -145,7 +145,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
   2. **Default Gateway**: `10.0.2.2` (confirms this adapter is used to route traffic to the internet).
   3. **DHCP Enabled**: `Yes` (shows the adapter is receiving its IP address dynamically).
 
-![Connection Details](screenshots/networkadapters4.png)
+![Connection Details](../screenshots/networkadapters4.png)
 
 **Explanation:**
 - The adapter with a valid **IPv4 Address** and a configured **Default Gateway** is connected to the internet.
@@ -159,7 +159,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
    - **Adapter connected to the internet:** `_INTERNET_`.
    - **Adapter for internal communication:** `X_internal_X`.
 
-![Renamed Adapters](screenshots/networktrename.png)
+![Renamed Adapters](../screenshots/networktrename.png)
 
 ---
 
