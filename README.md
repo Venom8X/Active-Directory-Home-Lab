@@ -86,4 +86,59 @@ This project was managed and documented entirely using **PowerShell**, showcasin
   git init
   git remote add origin https://github.com/your-username/repository-name.git
 
+### Commit and Version Control
+- Tracked file changes, staged updates, and committed code/documentation:
+  ```powershell
+  git add .
+  git commit -m "Commit message"
+- Pushed commits to GitHub
+  ```powershell
+  git push origin main
+
+### Branching and Merging
+- Used branches for feature development and documentation updates:
+  ```powershell
+  git branch feature-branch
+  git checkout feature-branch
+  git merge feature-branch
+
+### Remote Repository Management
+- Updated the remote repository URL after a username change:
+  ```powershell
+  git remote set-url origin https://github.com/new-username/repository-name.git
+
+### Screenshots and Documentation
+- Used [ShareX](https://getsharex.com/) to capture screenshots and managed file structure using PowerShell.
+- Committed updated screenshots and linked them in documentation files:
+  ```powershell
+  git add screenshots/
+  git commit -m "Added screenshots for documentation"
+
+### Workflow Automation
+- Automated repetitive tasks, such as adding, committing, and pushing changes, by creating custom PowerShell scripts:
+  ```powershell
+  # Example Script
+  git add .
+  git commit -m "Automated commit message"
+  git push origin main
+
+### Collaboration and Conflict Resolution
+- Resolved merge conflicts and ensured code integrity using PowerShell commands:
+  ```powershell
+  git status
+  git diff
+  git merge --abort
+
+### SSH Key Management
+- Configured SSH authentication to streamline interactions with GitHub:
+  ```powershell
+  ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+  ssh-add ~/.ssh/id_rsa
+
+## Why I Used PowerShell
+
+- **Professionalism**: PowerShell is widely used in IT and DevOps environments, demonstrating my ability to work in professional workflows.
+- **Efficiency**: Automating tasks through PowerShell scripts saved time and ensured consistent management of the project.
+- **Version Control Expertise**: Managed the entire project lifecycle—from initialization to deployment—using Git commands in PowerShell.
+- **Reproducibility**: PowerShell scripts and workflows ensure that the project setup can be replicated by others in a structured and efficient manner.
 
