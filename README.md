@@ -75,3 +75,18 @@ This screenshot shows the dynamically allocated storage settings for the VM:
 This screenshot shows the Windows Server 2022 ISO file attached to the VM:
 
 ![VirtualBox ISO Settings](screenshots/virtualbox-isosettings.png)
+
+## Windows Server Installation
+
+### Select Custom Install
+![Windows Install Screen](screenshots/customos.png)
+
+### Edition Selection
+![Windows Edition Selection](screenshots/installos.png)
+
+### Disk Selection
+![Windows Disk Selection](screenshots/installos2.png)
+
+### Windows Server 2022 GUI
+![Windows First Login](screenshots/windowsgui1.png)
+
