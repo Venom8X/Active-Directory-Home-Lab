@@ -121,7 +121,10 @@ This screenshot shows that Oracle VirtualBox is installed and ready for use:
 These screenshots show the hardware, hard disk, and storage settings for the Windows Server 2022 VM:
 
 #### Hardware Settings
-![VirtualBox VM Settings](screenshots/virtualbox-hardware.png)
+![VirtualBox Name and OS Settings](screenshots/virtualbox-os.png)
+
+#### Hardware Settings
+![VirtualBox Hardware Settings](screenshots/virtualbox-hardware.png)
 
 #### Hard Disk Settings
 ![VirtualBox Hard Disk Settings](screenshots/virtualbox-hdd.png)
@@ -132,6 +135,9 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 ---
 
 ### Windows Server Installation
+
+#### Start the VM
+![VirtualBox VM Menu](screenshots/virtualbox-vmcreated.png)
 
 #### Select Custom Install
 ![Windows Install Screen](screenshots/customos.png)
@@ -224,6 +230,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
   1. **IPv4 Address**: `10.0.2.15` (indicates this adapter is active on the network).
   2. **Default Gateway**: `10.0.2.2` (confirms this adapter is used to route traffic to the internet).
   3. **DHCP Enabled**: `Yes` (shows the adapter is receiving its IP address dynamically).
+![Connection Details](screenshots/networkadapters4.png)
 
 **Explanation:**
 - The adapter with a valid **IPv4 Address** and a configured **Default Gateway** is connected to the internet.
