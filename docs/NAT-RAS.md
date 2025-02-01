@@ -56,11 +56,11 @@
 
 Once the installation is complete, you can configure your Remote Access and NAT settings as required to provide connectivity and routing for your network environment.
 
-# Configuring NAT and Routing with Remote Access
+## Configuring NAT and Routing with Remote Access
 
 ---
 
-## Step 1: Access Routing and Remote Access
+### Step 1: Access Routing and Remote Access
 1. Open **Server Manager**.
 2. Click on **Tools** and select **Routing and Remote Access** from the dropdown menu.
 
@@ -68,14 +68,14 @@ Once the installation is complete, you can configure your Remote Access and NAT 
 
 ---
 
-## Step 2: Enable and Configure Routing and Remote Access
+### Step 2: Enable and Configure Routing and Remote Access
 1. In the **Routing and Remote Access** window, right-click the server name and select **Configure and Enable Routing and Remote Access**.
 
    ![Configure Routing and Remote Access](../screenshots/natras2.png)
 
 ---
 
-## Step 3: Start the Setup Wizard
+### Step 3: Start the Setup Wizard
 1. The **Routing and Remote Access Server Setup Wizard** will open.
 2. Select **Network address translation (NAT)** and click **Next**.
 
@@ -83,7 +83,7 @@ Once the installation is complete, you can configure your Remote Access and NAT 
 
 ---
 
-## Step 4: Configure the Internet Connection
+### Step 4: Configure the Internet Connection
 1. Choose the public interface connected to the Internet.
 2. In the example below, `_INTERNET_` (10.0.2.15) is selected.
 3. Click **Next** to proceed.
@@ -92,7 +92,7 @@ Once the installation is complete, you can configure your Remote Access and NAT 
 
 ---
 
-## Step 5: Complete the Setup
+### Step 5: Complete the Setup
 1. Review the summary of the configuration.
 2. Click **Finish** to complete the setup.
 
