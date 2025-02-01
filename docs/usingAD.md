@@ -116,26 +116,26 @@ Once the server has been promoted to a domain controller, the system will reboot
 1. Click on the **Start Menu**
 2. Type **Active Directory Users and Computers** into the search bar.
 3. Select the **Active Directory Users and Computers** app from the search results.
-   ![Active Directory Users and Computers](screenshots/adusersandcomputers.png)
+   ![Active Directory Users and Computers](../screenshots/adusersandcomputers.png)
 
 
 ### Step 2: Create an Organizational Unit (OU)
 1. Open **Active Directory Users and Computers**.
 2. Right-click on your domain name (e.g., `mydomain.com`) in the left panel.
 3. Hover over **New** and select **Organizational Unit**.
-   ![Create New OU](screenshots/newou1.png)
+   ![Create New OU](../screenshots/newou1.png)
 4. In the **New Object - Organizational Unit** dialog:
    - Enter the name of the OU (e.g., `_ADMINS`).
    - Ensure the box for **Protect container from accidental deletion** is checked.
    - Click **OK** to create the OU.
-   ![New OU Name](screenshots/newou2.png)
+   ![New OU Name](../screenshots/newou2.png)
 
 ---
 
 ### Step 3: Add a New User to the Organizational Unit
 1. In **Active Directory Users and Computers**, navigate to the newly created OU (e.g., `_ADMINS`).
 2. Right-click the OU and hover over **New**, then select **User**.
-   ![Add New User](screenshots/newuser1.png)
+   ![Add New User](../screenshots/newuser1.png)
 3. In the **New Object - User** dialog:
    - Enter the user's first name, last name, and user logon name.
    - Example:
@@ -143,13 +143,13 @@ Once the server has been promoted to a domain controller, the system will reboot
      - **Last Name**: van den Bussche
      - **User Logon Name**: `a.vandenbussche`
    - Click **Next** to continue.
-   ![New User Details](screenshots/newuser2.png)
+   ![New User Details](../screenshots/newuser2.png)
 4. Set the user's password:
    - Enter the password in both fields.
    - Options:
      - Check **User must change password at next logon** if the user should set their password upon first login.
    - Click **Next** to proceed.
-   ![Set User Password](screenshots/newuser3.png)
+   ![Set User Password](../screenshots/newuser3.png)
 5. Review the details and click **Finish** to create the user account.
 
 ---
