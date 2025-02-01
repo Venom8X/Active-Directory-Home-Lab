@@ -1,7 +1,7 @@
 # Using Active Directory
 
 ## Table of Contents
-- [Installing Active Directory Domain Services (AD DS)](#installing-active-directory-domain-services-(ad-ds))
+- [Installing Active Directory Domain Services (AD DS)](#installing-active-directory-domain-services-ad-ds)
 - [Promote the Server to a Domain Controller](#promote-the-server-to-a-domain-controller)
 - [Creating Organizational Units (OUs) and Users in Active Directory](#creating-organizational-units-ous-and-users-in-active-directory)
 
