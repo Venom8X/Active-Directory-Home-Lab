@@ -1,5 +1,12 @@
 # Setup Instructions
 
+## Table of Contents
+- [VirtualBox and Windows Server 2022 Downloads](#download-virtualbox-and-windows-server-2022-iso)
+- [Virtual Machine Settings](#virtual-machine-settings)
+- [Windows Server 2022 Installation](#windows-server-2022-installation)
+- [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
+- [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
+
 ## 1. Install Oracle VirtualBox
 Download and install [Oracle VirtualBox](https://www.virtualbox.org/).
 
@@ -48,7 +55,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ---
 
-### Windows Server Installation
+### Windows Server 2022 Installation
 
 #### Start the VM
 ![VirtualBox VM Menu](../screenshots/virtualbox-vmcreated.png)
