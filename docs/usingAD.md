@@ -4,7 +4,7 @@
 - [Installing Active Directory Domain Services (AD DS)](#installing-active-directory-domain-services-ad-ds)
 - [Promote the Server to a Domain Controller](#promote-the-server-to-a-domain-controller)
 - [Creating Organizational Units (OUs) and Users in Active Directory](#creating-organizational-units-ous-and-users-in-active-directory)
-
+- [Managing Users in Active Directory](#managing-users-in-active-directory)
 ##
 - [Back to Active Directory Home Lab README](../README.md)
 ##
@@ -181,7 +181,7 @@ These steps ensure efficient management and organization of resources in your Ac
    - Right-click on the user account (e.g., "Luis van den Bussche").
 2. Select **Properties** from the context menu.
 
-![Accessing User Properties](../screenshots/usingad/newadmin1.png)
+![Accessing User Properties](../screenshots/newadmin1.png)
 
 ---
 
@@ -190,7 +190,7 @@ These steps ensure efficient management and organization of resources in your Ac
    - Navigate to the **Member Of** tab.
 2. Click the **Add...** button.
 
-![Adding Group Membership](../screenshots/usingad/newadmin2.png)
+![Adding Group Membership](../screenshots/newadmin2.png)
 
 ---
 
@@ -200,7 +200,7 @@ These steps ensure efficient management and organization of resources in your Ac
    - Click **Check Names** to validate the group.
 2. Click **OK** to add the user to the group.
 
-![Selecting the Group](../screenshots/usingad/newadmin3.png)
+![Selecting the Group](../screenshots/newadmin3.png)
 
 ---
 
@@ -208,7 +208,7 @@ These steps ensure efficient management and organization of resources in your Ac
 1. Verify that **Domain Admins** now appears in the **Member Of** tab under the list of groups.
 2. Click **OK** to save and close the **Properties** window.
 
-![Confirming Group Membership](../screenshots/usingad/newadmin4.png)
+![Confirming Group Membership](../screenshots/newadmin4.png)
 
 ---
 
@@ -219,15 +219,15 @@ These steps ensure efficient management and organization of resources in your Ac
 2. Click on the **profile icon** or your account name in the bottom-left corner.
 3. Select **Sign out** from the menu.
 
-![Signing Out](../screenshots/usingad/newadmin5.png)
+![Signing Out](../screenshots/newadmin5.png)
 
 4. On the login screen, select **Other user**.
 5. Enter the username and password for the updated account (e.g., "a-lvandenbussche").
 6. Ensure the domain is correct (e.g., **MYDOMAIN**).
 7. Click the **arrow** button or press **Enter** to log in.
 
-![Logging In](../screenshots/usingad/newadmin6.png)
+![Logging In](../screenshots/newadmin6.png)
 
-![Login Screen](../screenshots/usingad/newadmin7.png)
+![Login Screen](../screenshots/newadmin7.png)
 
 ---
