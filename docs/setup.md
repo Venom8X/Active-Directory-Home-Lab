@@ -179,3 +179,48 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
    - Clearly distinguishes between the external (internet-facing) and internal adapters.
 2. **Prevents Configuration Errors**:
    - Makes it easier to assign services like DHCP, DNS, or Active Directory roles.
+
+---
+
+### **Configure IPv4 Settings for Internal Adapter**
+
+#### Step 1: Open Properties for the Internal Network Adapter
+1. Navigate to **Network Connections**.
+2. Right-click on the adapter labeled `X_internal_X` and select **Properties**.
+
+![Right-Click Internal Adapter](../screenshots/networkadapters5.png)
+
+---
+
+#### Step 2: Access IPv4 Settings
+1. In the **Properties** window, scroll down to **Internet Protocol Version 4 (TCP/IPv4)**.
+2. Select it and click the **Properties** button.
+
+![Select IPv4 Settings](../screenshots/networkadapters6.png)
+
+---
+
+#### Step 3: Set a Static IP Address
+1. In the **IPv4 Properties** window:
+   - Select **Use the following IP address**.
+   - Enter the following values:
+     - **IP Address**: `172.16.0.1`
+     - **Subnet Mask**: `255.255.255.0`
+     - **Default Gateway**: Leave blank.
+   - Select **Use the following DNS server addresses**.
+     - **Preferred DNS Server**: `127.0.0.1`
+     - **Alternate DNS Server**: Leave blank.
+
+2. Click **OK** to save your changes.
+
+![Configure Static IP](../screenshots/networkadapters7.png)
+
+---
+
+### **Explanation**
+- **Why Use a Static IP?**
+  - The internal network adapter needs a consistent IP address (`172.16.0.1`) to serve as the Domain Controller (DC) and DNS server.
+- **Why Set `127.0.0.1` as DNS?**
+  - `127.0.0.1` is the **localhost address**, ensuring the server resolves DNS queries locally.
+
+---
