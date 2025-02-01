@@ -4,7 +4,7 @@
 - [Configuring NAT and Remote Access Service (RAS)](#step-1-select-role-services-refer-to-installing-active-directory-domain-services-ad-ds-for-adding-roles-and-features)
 
 ## Step 1: Select Role Services
-####(refer to [Installing Active Directory Domain Services (AD DS)](/docs/usingAD.md#step-1-open-server-manager-and-select-add-roles-and-features) for adding roles and features)
+(refer to [Installing Active Directory Domain Services (AD DS)](/docs/usingAD.md#step-1-open-server-manager-and-select-add-roles-and-features) for adding roles and features)
 
 1. Open the **Add Roles and Features Wizard**.
 2. Navigate to the **Role Services** step under **Remote Access**.
