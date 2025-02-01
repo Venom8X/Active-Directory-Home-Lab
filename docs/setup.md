@@ -223,3 +223,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
   - `127.0.0.1` is the **localhost address**, ensuring the server resolves DNS queries locally.
 
 ---
+
+##
+- [Back to Active Directory Home Lab README](../README.md)
+##

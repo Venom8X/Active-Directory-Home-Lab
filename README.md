@@ -6,6 +6,7 @@
 - [Objectives, Skills Demonstrated, and Tools](#objectives)
 - [Results and Conclusion of this Lab](#results)
 - [Setup Instructions](docs/setup.md)
+- [Using Active Directory](docs/usingAD.md)
 
 ---
 
