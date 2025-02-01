@@ -7,11 +7,9 @@
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
 
----
-
+##
 - [Back to Active Directory Home Lab README](../README.md)
-
----
+##
 
 ## 1. Install Oracle VirtualBox
 Download and install [Oracle VirtualBox](https://www.virtualbox.org/).
