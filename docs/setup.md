@@ -7,8 +7,6 @@
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
 - [Configure IPv4 Settings for Internal Adapter](#configure-ipv4-settings-for-internal-adapter)
-
-##
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 

@@ -5,7 +5,6 @@
 - [Promote the Server to a Domain Controller](#promote-the-server-to-a-domain-controller)
 - [Creating Organizational Units (OUs) and Users in Active Directory](#creating-organizational-units-ous-and-users-in-active-directory)
 - [Managing Users in Active Directory](#managing-users-in-active-directory)
-##
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 
