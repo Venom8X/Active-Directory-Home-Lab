@@ -136,7 +136,7 @@ To run the provided PowerShell script in **PowerShell ISE**, follow these steps:
 
 ```powershell
 Set-ExecutionPolicy Unrestricted
-
+```
 2. In PowerShell ISE, press `Ctrl + O` and open the saved `CreateUsers.ps1` script.
 3. Highlight the script content or ensure the cursor is anywhere within the script window.
 4. Click `Run Script` or press `F5` to execute the script.
