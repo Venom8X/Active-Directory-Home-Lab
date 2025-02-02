@@ -173,7 +173,7 @@ Jane Smith
 Alice Johnson
 Michael Brown
 Sarah Davis
-
+```
 ### Usage
 
 - Ensure `names.txt` is located in the same directory as the PowerShell script.
