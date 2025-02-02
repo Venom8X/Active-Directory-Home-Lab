@@ -335,7 +335,7 @@ Follow these steps to rename the PC to `CLIENT1` and join it to the `mydomain.co
 ![Renaming and Joining the Domain](../screenshots/login1.png)
 
 8. **Confirming Connection to DC**
-   - Finally, we can confirm out connection of CLIENT1 to our Domain Controller from our Windows Server 2022 VM
+   - Finally, we can confirm the connection of CLIENT1 to the Domain Controller from the Windows Server 2022 VM
 
 ![Confirmation](../screenshots/confirmation.png)
 
