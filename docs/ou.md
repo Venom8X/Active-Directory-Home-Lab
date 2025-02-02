@@ -89,7 +89,7 @@ For each name in `names.txt`, the script:
 
 ---
 
-This script demonstrates automation with PowerShell and highlights your ability to manage Active Directory effectively.
+## This script demonstrates automation with PowerShell and highlights your ability to manage Active Directory effectively.
 
 ---
 
