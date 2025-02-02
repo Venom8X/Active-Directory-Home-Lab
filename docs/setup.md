@@ -7,6 +7,8 @@
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
 - [Configure IPv4 Settings for Internal Adapter](#configure-ipv4-settings-for-internal-adapter)
+- []()
+- []()
 - [Next Step: Using Active Directory](docs/usingAD.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
@@ -216,6 +218,67 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
   - The internal network adapter needs a consistent IP address (`172.16.0.1`) to serve as the Domain Controller (DC) and DNS server.
 - **Why Set `127.0.0.1` as DNS?**
   - `127.0.0.1` is the **localhost address**, ensuring the server resolves DNS queries locally.
+
+---
+
+## Setting Up the "Client1" VM for the Active Directory Lab
+
+### Downloading the Windows 10 64-bit ISO
+
+To set up a virtual machine or create bootable installation media, follow these steps to download the Windows 10 64-bit ISO:
+
+1. **Navigate to the Microsoft Software Download Page**:
+   - Go to the official [Microsoft Software Download Page](https://www.microsoft.com/software-download/windows10).
+
+2. **Scroll to the "Create Windows 10 Installation Media" Section**:
+   - Locate the section titled **Create Windows 10 installation media**.
+
+3. **Click "Download Now"**:
+   - Click the **Download Now** button to download the Media Creation Tool. Refer to the screenshot below for guidance:
+
+   ![Download Windows 10 ISO](../screenshots/window10iso.png)
+
+4. **Run the Media Creation Tool**:
+   - Once downloaded, open the Media Creation Tool and follow the prompts to:
+     - Select your preferred language.
+     - Choose the 64-bit version of Windows 10.
+     - Save the ISO file to your computer.
+
+5. **Save the ISO File**:
+   - When prompted, choose a location on your computer to save the ISO file for future use.
+
+---
+
+To set up the "Client1" VM, you will follow a similar process to the setup for the server VM. Please refer to the **Server VM Setup** section for detailed instructions on installing the operating system, configuring basic settings, and enabling essential features. Below, we will highlight the unique configurations required for the Client1 VM.
+
+### Networking Configuration for "Client1"
+
+The networking configuration ensures the Client1 VM can communicate with the server VM on the internal network. Follow these steps:
+
+1. Open the settings for the Client1 VM in VirtualBox.
+2. Navigate to the **Network** section.
+3. Configure the following settings for **Adapter 1**:
+   - **Enable Network Adapter**: Checked
+   - **Attached to**: Internal Network
+   - **Name**: `intnet` (or the same name used for your server VM's internal network)
+   - **Adapter Type**: Intel PRO/1000 MT Desktop (82540EM)
+   - **Promiscuous Mode**: Deny
+   - **MAC Address**: Leave as auto-generated or adjust as needed.
+   - **Cable Connected**: Checked
+
+4. Save the settings by clicking **OK**.
+
+![Client1 Network Adapter](../screenshots/client1.png)
+
+Below is a screenshot of the network configuration for the Client1 VM:
+
+![Client1 Network Settings](../screenshots/.png)
+
+### Additional Notes
+
+- If any other configurations, such as disk or system settings, are required, refer to the **Server VM Setup** section for guidance.
+- After completing the setup, ensure the Client1 VM is properly connected to the internal network by testing connectivity to the server VM (e.g., using the `ping` command from the Client1 VM).
+- The Client1 VM will act as a client within the Active Directory environment, allowing you to test user logins, group policies, and other domain-related tasks.
 
 ---
 
