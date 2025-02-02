@@ -72,7 +72,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 #### Disk Selection
 ![Windows Disk Selection](../screenshots/installos2.png)
 
-#### Windows Server 2022 GUI
+#### Windows Server 2022 Server Manager Application
 ![Windows First Login](../screenshots/windowsgui1.png)
 
 ---
