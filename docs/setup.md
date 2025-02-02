@@ -332,7 +332,7 @@ Follow these steps to rename the PC to `CLIENT1` and join it to the `mydomain.co
 7. **Confirm Domain Join**:
    - After successfully joining the domain, a dialog will appear welcoming you to the `mydomain.com` domain. Click **OK**.
 
-![Renaming and Joining the Domain](./path-to-your-image/login1.png)
+![Renaming and Joining the Domain](../screenshots/login1.png)
 
 ---
 
