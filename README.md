@@ -10,6 +10,7 @@
 - [Using Active Directory](docs/usingAD.md)
 - [Setting up NAS/RAS](docs/NAT-RAS.md)
 - [Setting Up DHCP with the Domain Controller](docs/DHCP.md)
+- [Adding Users to Active Directory Using Powershell](docs/ou.md)
 ---
 
 ## Overview
