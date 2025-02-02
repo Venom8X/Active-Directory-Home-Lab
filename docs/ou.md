@@ -37,12 +37,7 @@ foreach ($n in $USER_FIRST_LAST_LIST) {
                -Path "ou=_USERS,$(([ADSI]`"").distinguishedName)" `
                -Enabled $true
 }
-
-
-
-
-
-
+```
 ---
 
 ## How the Script Works
