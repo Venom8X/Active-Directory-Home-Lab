@@ -39,6 +39,10 @@ Follow these steps to rename the PC to `CLIENT1` and join it to the `mydomain.co
 
 ![Confirmation](../screenshots/confirmation.png)
 
+
+### Notes
+- You can now log in with any account we created, in Active Directory with our PowerShell script, from CLIENT1.
+
 ---
 
 [🔝 Back to Table of Contents](#table-of-contents)
