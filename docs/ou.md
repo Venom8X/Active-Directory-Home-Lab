@@ -132,7 +132,7 @@ To run the provided PowerShell script in **PowerShell ISE**, follow these steps:
 ---
 
 ### Step 5: Run the Script
-1.Use the following command in Powershell: 
+ 1.Use the following command in PowerShell ISE: 
 
 ```powershell
 Set-ExecutionPolicy Unrestricted
