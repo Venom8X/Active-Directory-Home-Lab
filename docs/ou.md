@@ -1,12 +1,12 @@
 # Adding Users to Active Directory Using Powershell
 
 ## Table of Contents
-- [PowerShell Script for Creating Active Directory Users]()
-- [How the Script Works]()
-- [File Requirements]()
-- [Notes]()
-- [Instructions for Using the Script in PowerShell ISE]()
-- [Sample User Data File]()
+- [PowerShell Script for Creating Active Directory Users](#powershell-script-for-creating-active-directory-users)
+- [How the Script Works](#how-the-script-works)
+- [File Requirements](#file-requirements)
+- [Notes](#notes)
+- [Instructions for Using the Script in PowerShell ISE](#instructions-for-using-the-script-in-powershell-ise)
+- [Sample User Data File](#sample-user-data-file)
 - [Next Step:](docs/.md)
 - [Back to Active Directory Home Lab README](../README.md)
 
