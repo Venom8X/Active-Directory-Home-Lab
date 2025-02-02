@@ -38,6 +38,8 @@ foreach ($n in $USER_FIRST_LAST_LIST) {
                -Enabled $true
 }
 
+---
+
 ## How the Script Works
 
 ### Variable Setup:
