@@ -6,6 +6,7 @@
 - [File Requirements]()
 - [Notes]()
 - [Instructions for Using the Script in PowerShell ISE]()
+- [Sample User Data File]()
 - [Next Step:](docs/.md)
 - [Back to Active Directory Home Lab README](../README.md)
 
@@ -132,7 +133,7 @@ To run the provided PowerShell script in **PowerShell ISE**, follow these steps:
 ---
 
 ### Step 5: Run the Script
-1. Use the following command in PowerShell ISE: 
+1. Use the following command in PowerShell ISE for convenience during this lab: 
 
 ```powershell
 Set-ExecutionPolicy Unrestricted
@@ -157,6 +158,38 @@ Set-ExecutionPolicy Unrestricted
 - If any errors occur, check the error messages for details and verify that the `names.txt` file and variables are configured correctly.
 
 ---
+
+## Sample User Data File
+
+This project includes a `names.txt` file containing a list of 1000 names that the PowerShell script pulls from to create users in Active Directory.
+
+### **File Structure**
+Each line in `names.txt` consists of a **first name** and **last name**, separated by a space. The script processes each line to generate usernames and create user accounts in AD.
+
+### **Example Entries from `names.txt`**
+```plaintext
+John Doe
+Jane Smith
+Alice Johnson
+Michael Brown
+Sarah Davis
+
+### Usage
+
+- Ensure `names.txt` is located in the same directory as the PowerShell script.
+- The script reads names from `names.txt`, generates usernames, and creates corresponding AD user accounts.
+- Each username is constructed using **the first letter of the first name + full last name**  
+  _(e.g., John Doe → `jdoe`)._
+
+### Customizing `names.txt`
+
+- You can modify this file to include real or test users based on your needs.
+- Ensure each entry follows the `FirstName LastName` format to avoid errors.
+
+---
+
+This file enables **bulk user creation in Active Directory**, demonstrating automation through PowerShell.
+
 
 [🔝 Back to Table of Contents](#table-of-contents)
 
