@@ -148,3 +148,7 @@ This project was managed and documented entirely using **PowerShell**, showcasin
 
 [🔝 Back to Table of Contents](#table-of-contents)
 
+##
+[Step 1: Setup Instructions](docs/setup.md)
+##
+
