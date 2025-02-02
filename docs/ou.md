@@ -6,6 +6,7 @@
 - [File Requirements]()
 - [Notes]()
 - [Instructions for Using the Script in PowerShell ISE]()
+- [Next Step:](docs/.md)
 - [Back to Active Directory Home Lab README](../README.md)
 
 
@@ -131,9 +132,14 @@ To run the provided PowerShell script in **PowerShell ISE**, follow these steps:
 ---
 
 ### Step 5: Run the Script
-1. In PowerShell ISE, press `Ctrl + O` and open the saved `CreateUsers.ps1` script.
-2. Highlight the script content or ensure the cursor is anywhere within the script window.
-3. Click `Run Script` or press `F5` to execute the script.
+1.Use the following command in Powershell: 
+
+```powershell
+Set-ExecutionPolicy Unrestricted
+
+2. In PowerShell ISE, press `Ctrl + O` and open the saved `CreateUsers.ps1` script.
+3. Highlight the script content or ensure the cursor is anywhere within the script window.
+4. Click `Run Script` or press `F5` to execute the script.
 
 ---
 
@@ -149,3 +155,13 @@ To run the provided PowerShell script in **PowerShell ISE**, follow these steps:
 - Ensure that PowerShell is running with administrative privileges.
 - The system must have the **Active Directory module** installed and be connected to the domain controller.
 - If any errors occur, check the error messages for details and verify that the `names.txt` file and variables are configured correctly.
+
+---
+
+[🔝 Back to Table of Contents](#table-of-contents)
+
+##
+[Next Step:](docs/.md)
+
+[Back to Active Directory Home Lab README](../README.md)
+##
