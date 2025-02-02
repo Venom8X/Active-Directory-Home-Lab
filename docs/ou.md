@@ -5,6 +5,7 @@
 - [How the Script Works]()
 - [File Requirements]()
 - [Notes]()
+- [Instructions for Using the Script in PowerShell ISE]()
 - [Back to Active Directory Home Lab README](../README.md)
 
 
@@ -90,4 +91,63 @@ For each name in `names.txt`, the script:
 
 This script demonstrates automation with PowerShell and highlights your ability to manage Active Directory effectively.
 
-You can copy this explanation and script directly into your `README.md` file to showcase your PowerShell skills and project functionality.
+---
+
+## Instructions for Using the Script in PowerShell ISE
+
+To run the provided PowerShell script in **PowerShell ISE**, follow these steps:
+
+---
+
+### Step 1: Open PowerShell ISE
+1. Press `Windows + S` to open the search bar.
+2. Type `PowerShell ISE` and select the **Windows PowerShell ISE** application.
+
+---
+
+### Step 2: Create and Save the Script
+1. In PowerShell ISE, click on `File` > `New` to open a new script file.
+2. Copy and paste the provided PowerShell script into the editor window.
+3. Save the script with a `.ps1` extension by clicking on `File` > `Save As`. For example, save it as `CreateUsers.ps1`.
+
+---
+
+### Step 3: Prepare the `names.txt` File
+1. Create a text file named `names.txt` in the same directory where the script is saved.
+2. Add the list of users in the format `FirstName LastName`, one user per line.
+   - **Example**:
+     ```plaintext
+     John Doe
+     Jane Smith
+     Alice Johnson
+     ```
+
+---
+
+### Step 4: Modify Script Variables (Optional)
+1. Open the script file (`CreateUsers.ps1`) in PowerShell ISE.
+2. Edit the following variables at the top of the script:
+   - `PASSWORD_FOR_USERS`: Replace `"Password1"` with a strong password for the users.
+   - `USER_FIRST_LAST_LIST`: Ensure the file path points to the correct `names.txt` location.
+
+---
+
+### Step 5: Run the Script
+1. In PowerShell ISE, press `Ctrl + O` and open the saved `CreateUsers.ps1` script.
+2. Highlight the script content or ensure the cursor is anywhere within the script window.
+3. Click `Run Script` or press `F5` to execute the script.
+
+---
+
+### Step 6: Verify User Creation
+1. Ensure the script completes successfully.
+2. Verify that:
+   - The `_USERS` Organizational Unit has been created in Active Directory.
+   - The users from `names.txt` are created within the `_USERS` Organizational Unit.
+
+---
+
+### Notes
+- Ensure that PowerShell is running with administrative privileges.
+- The system must have the **Active Directory module** installed and be connected to the domain controller.
+- If any errors occur, check the error messages for details and verify that the `names.txt` file and variables are configured correctly.
