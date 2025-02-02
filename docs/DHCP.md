@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Installing and Configuring DHCP Server](#installing-and-configuring-dhcp-server)
 - [Configuring a DHCP Scope on Windows Server](#configuring-a-dhcp-scope-on-windows-server)
-- [Next Step: Adding Users to Active Directory Using Powershell](docs/ou.md)
+- [Next Step: Adding Users to Active Directory Using Powershell](ou.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 
@@ -107,7 +107,7 @@ Follow these steps to install and configure the DHCP Server role on Windows Serv
 [🔝 Back to Table of Contents](#table-of-contents)
 
 ##
-[Next Step: Adding Users to Active Directory Using Powershell](docs/ou.md)
+[Next Step: Adding Users to Active Directory Using Powershell](ou.md)
 
 [Back to Active Directory Home Lab README](../README.md)
 ##

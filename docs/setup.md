@@ -10,8 +10,7 @@
 - [Setting Up the "Client1" VM](#setting-up-the-client1-vm-for-the-active-directory-lab)
 - [Networking Configuration for "Client1"](#networking-configuration-for-client1)
 - [Install Windows 10 Pro on the VM](#install-windows-10-pro-on-the-vm)
-- [Renaming PC to CLIENT1 and Joining the Domain](#renaming-pc-to-client1-and-joining-the-domain)
-- [Next Step: Using Active Directory](docs/usingAD.md)
+- [Next Step: Using Active Directory](usingAD.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 

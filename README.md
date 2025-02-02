@@ -6,11 +6,12 @@
 - [Objectives, Skills Demonstrated, and Tools](#objectives)
 - [Results and Conclusion of this Lab](#results)
 - [PowerShell Usage for Project Management](#powershell-usage-for-project-management)
-- [Setup Instructions](docs/setup.md)
-- [Using Active Directory](docs/usingAD.md)
-- [Setting up NAS/RAS](docs/NAT-RAS.md)
-- [Setting Up DHCP with the Domain Controller](docs/DHCP.md)
-- [Adding Users to Active Directory Using Powershell](docs/ou.md)
+- [Step 1: Setup Instructions](docs/setup.md)
+- [Step 2: Using Active Directory](docs/usingAD.md)
+- [Step 3: Setting up NAS/RAS](docs/NAT-RAS.md)
+- [Step 4: Setting Up DHCP with the Domain Controller](docs/DHCP.md)
+- [Step 5: Adding Users to Active Directory Using Powershell](docs/ou.md)
+- [Step 6: Joining Domain From CLIENT1](docs/connecting.md)
 ---
 
 ## Overview

@@ -7,7 +7,7 @@
 - [Notes](#notes)
 - [Instructions for Using the Script in PowerShell ISE](#instructions-for-using-the-script-in-powershell-ise)
 - [Sample User Data File](#sample-user-data-file)
-- [Next Step:](docs/.md)
+- [Next Step: Joining Domain From CLIENT1](connecting.md)
 - [Back to Active Directory Home Lab README](../README.md)
 
 
@@ -194,7 +194,7 @@ This file enables **bulk user creation in Active Directory**, demonstrating auto
 [🔝 Back to Table of Contents](#table-of-contents)
 
 ##
-[Next Step:](docs/.md)
+[Next Step: Joining Domain From CLIENT1](connecting.md)
 
 [Back to Active Directory Home Lab README](../README.md)
 ##

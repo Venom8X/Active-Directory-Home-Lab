@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Configuring NAT and Remote Access Service (RAS)](#step-1-select-role-services-refer-to-installing-active-directory-domain-services-ad-ds-for-adding-roles-and-features)
 - [Configuring NAT and Routing with Remote Access](#configuring-nat-and-routing-with-remote-access)
-- [Next Step: Setting Up DHCP with the Domain Controller](docs/DHCP.md)
+- [Next Step: Setting Up DHCP with the Domain Controller](DHCP.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 
@@ -114,7 +114,7 @@ This configuration enables NAT and routing for internal clients to access the In
 [🔝 Back to Table of Contents](#table-of-contents)
 
 ##
-[Next Step: Setting Up DHCP with the Domain Controller](docs/DHCP.md)
+[Next Step: Setting Up DHCP with the Domain Controller](DHCP.md)
 
 [Back to Active Directory Home Lab README](../README.md)
 ##

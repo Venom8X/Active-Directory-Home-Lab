@@ -5,7 +5,7 @@
 - [Promote the Server to a Domain Controller](#promote-the-server-to-a-domain-controller)
 - [Creating Organizational Units (OUs) and Users in Active Directory](#creating-organizational-units-ous-and-users-in-active-directory)
 - [Managing Users in Active Directory](#managing-users-in-active-directory)
-- [Next Step: Setting Up NAT/RAS](docs/NAT-RAS.md)
+- [Next Step: Setting Up NAT/RAS](NAT-RAS.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
 
@@ -235,7 +235,7 @@ These steps ensure efficient management and organization of resources in your Ac
 [🔝 Back to Table of Contents](#table-of-contents)
 
 ##
-[Next Step: Setting Up NAT/RAS](docs/NAT-RAS.md)
+[Next Step: Setting Up NAT/RAS](NAT-RAS.md)
 
 [Back to Active Directory Home Lab README](../README.md)
 ##
