@@ -9,6 +9,7 @@
 - [Configure IPv4 Settings for Internal Adapter](#configure-ipv4-settings-for-internal-adapter)
 - [Setting Up the "Client1" VM](#setting-up-the-client1-vm-for-the-active-directory-lab)
 - [Networking Configuration for "Client1"](#networking-configuration-for-client1)
+- [Install Windows 10 Pro on the VM](#install-windows-10-on-the-vm)
 - [Next Step: Using Active Directory](docs/usingAD.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
@@ -282,7 +283,7 @@ Below is a screenshot of the network configuration for the Client1 VM:
 
 ---
 
-## Install Windows 10 on the VM
+## Install Windows 10 Pro on the VM
 
 1. **Attach the ISO to the Virtual Machine**:
    - Create a new virtual machine.
