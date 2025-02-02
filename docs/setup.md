@@ -7,8 +7,8 @@
 - [Configuring Network Adapters in VirtualBox](#configuring-network-adapters-in-virtualbox)
 - [Configuring Network Adapters in Windows Server](#configuring-network-adapters-in-windows-server)
 - [Configure IPv4 Settings for Internal Adapter](#configure-ipv4-settings-for-internal-adapter)
-- []()
-- []()
+- [Setting Up the "Client1" VM](#setting-up-the-client1-vm-for-the-active-directory-lab)
+- [Networking Configuration for "Client1"](#networking-configuration-for-client1)
 - [Next Step: Using Active Directory](docs/usingAD.md)
 - [Back to Active Directory Home Lab README](../README.md)
 ##
@@ -221,7 +221,7 @@ These screenshots show the hardware, hard disk, and storage settings for the Win
 
 ---
 
-## Setting Up the "Client1" VM for the Active Directory Lab
+## Setting Up the "Client1" VM
 
 ### Downloading the Windows 10 64-bit ISO
 
@@ -281,6 +281,27 @@ Below is a screenshot of the network configuration for the Client1 VM:
 - The Client1 VM will act as a client within the Active Directory environment, allowing you to test user logins, group policies, and other domain-related tasks.
 
 ---
+
+## Install Windows 10 on the VM
+
+1. **Attach the ISO to the Virtual Machine**:
+   - Create a new virtual machine.
+   - Go to the VM settings and attach the Windows 10 ISO to the virtual DVD drive.
+
+2. **Start the Virtual Machine**:
+   - Power on the virtual machine.
+   - The VM will boot from the attached ISO and launch the Windows 10 installation process.
+   - Choose **I Don’t Have a Product Key** to proceed with installation without activating Windows.
+   
+4. **Select the Edition**:
+   - Choose **Windows 10 Pro** from the list of available editions.
+![Windows 10 Pro](../screenshots/windows10pro.png)
+
+   
+5. **Complete the Setup**
+   - Select **Custom** for the install type, select the drive, press **Next**, and complete installation.
+---
+
 
 [🔝 Back to Table of Contents](#table-of-contents)
 
