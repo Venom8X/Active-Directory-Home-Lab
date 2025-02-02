@@ -143,7 +143,7 @@ Once the server has been promoted to a domain controller, the system will reboot
    - Example:
      - **First Name**: Luis
      - **Last Name**: van den Bussche
-     - **User Logon Name**: `a.vandenbussche`
+     - **User Logon Name**: `a-vandenbussche`
    - Click **Next** to continue.
 
    ![New User Details](../screenshots/newuser2.png)
