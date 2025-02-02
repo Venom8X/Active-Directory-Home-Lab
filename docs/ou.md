@@ -87,9 +87,7 @@ For each name in `names.txt`, the script:
 - Customize the `names.txt` file and password to suit your organization's requirements.
 - The script creates users with basic attributes. You can extend it to include additional attributes as needed.
 
----
-
-## This script demonstrates automation with PowerShell and highlights your ability to manage Active Directory effectively.
+### This script demonstrates automation with PowerShell and highlights ability to manage Active Directory effectively.
 
 ---
 
