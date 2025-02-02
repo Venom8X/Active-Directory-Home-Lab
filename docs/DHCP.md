@@ -41,15 +41,13 @@ Follow these steps to install and configure the DHCP Server role on Windows Serv
 1. Open **Server Manager**.
 2. Navigate to **Tools** and select **DHCP**.
 
-![DHCP Manager](../screenshots/dhcp3.png)
-
 ---
 
 ### Step 2: Create a New Scope
 1. In the **DHCP Manager**, expand your server under **IPv4**.
 2. Right-click **IPv4** and select **New Scope**.
 
-![Create New Scope](../screenshots/dhcp4.png)
+![DHCP Manager](../screenshots/dhcp3.png)
 
 ---
 
@@ -58,7 +56,7 @@ Follow these steps to install and configure the DHCP Server role on Windows Serv
 2. Optionally, add a description.
 3. Click **Next**.
 
-![Scope Name](../screenshots/dhcp5.png)
+![Create New Scope](../screenshots/dhcp4.png)
 
 ---
 
