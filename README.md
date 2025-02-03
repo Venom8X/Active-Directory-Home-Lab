@@ -80,7 +80,7 @@ This setup simulates a real-world environment for hands-on practice in Active Di
 ---
 
 ## Conclusion
-This project provided **hands-on experience** in setting up an **Active Directory environment**, enhancing skills in **virtualization, server administration, networking, and scripting**. By building a **Windows Server 2022 domain controller**, configuring **DHCP, DNS, and NAT**, and automating **user management with PowerShell**, this lab simulates a **real-world IT infrastructure**. 
+This project provided hands-on experience in setting up an Active Directory environment, enhancing skills in virtualization, server administration, networking, and scripting. By building a Windows Server 2022 domain controller, configuring DHCP, DNS, and NAT, and automating user management with PowerShell, this lab simulates a real-world IT infrastructure. 
 
 Additionally, this project demonstrates **proficiency in PowerShell for automation**, **network configuration**, and **domain management**, all of which are essential skills for **IT administrators, system engineers, and cybersecurity professionals**.
 
