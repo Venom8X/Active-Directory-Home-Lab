@@ -15,7 +15,9 @@
 ---
 
 ## Overview
-This project involves setting up a home lab using Oracle VirtualBox to install and configure Active Directory. The lab includes creating a Windows Server virtual machine, promoting it to a Domain Controller, and managing users with PowerShell.
+This project is a fully documented setup of an Active Directory (AD) lab environment using VirtualBox, Windows Server 2022, and Windows 10. The goal of the lab is to simulate a real-world enterprise IT infrastructure, where a Windows Server domain controller manages networked clients, DHCP, NAT/RAS, and user authentication.
+
+The project demonstrates virtualization, Windows Server administration, network configuration, automation using PowerShell, and Active Directory management—all essential skills for IT professionals working with Microsoft-based infrastructures.
 
 ---
 
@@ -70,13 +72,17 @@ This setup simulates a real-world environment for hands-on practice in Active Di
 ---
 
 ## Results
-- Successfully set up a virtualized environment with Active Directory.
-- Automated user management tasks using PowerShell scripts.
+- Successfully created a virtualized Active Directory environment
+- Automated user account creation with PowerShell
+- Configured DHCP, DNS, and NAT for a working network
+- Validated authentication by joining a Windows 10 client to the domain
 
 ---
 
 ## Conclusion
-This project provided hands-on experience in setting up an Active Directory environment, enhancing skills in virtualization, server administration, and scripting.
+This project provided **hands-on experience** in setting up an **Active Directory environment**, enhancing skills in **virtualization, server administration, networking, and scripting**. By building a **Windows Server 2022 domain controller**, configuring **DHCP, DNS, and NAT**, and automating **user management with PowerShell**, this lab simulates a **real-world IT infrastructure**. 
+
+Additionally, this project demonstrates **proficiency in PowerShell for automation**, **network configuration**, and **domain management**, all of which are essential skills for **IT administrators, system engineers, and cybersecurity professionals**.
 
 ---
 
